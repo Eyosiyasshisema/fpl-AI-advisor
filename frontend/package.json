@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "postbuild": "netlify-plugin-nextjs"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^5.13.5",
